@@ -1,0 +1,40 @@
+html,
+body {
+  overflow: hidden;
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+  height: 100%;
+  background-image: url("https://images.unsplash.com/photo-1628935687655-8530bb7211bc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGNhbGN1bGF0b3J8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  color: teal;
+}
+
+.button {
+  width: 66px;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 9px;
+  cursor: pointer;
+  margin: 0 3px;
+}
+
+.button:hover {
+  background-color: rgb(49, 48, 48);
+  color: white;
+}
+
+.row {
+  margin: 8px 0;
+}
+.row input {
+  margin: 0;
+  padding: 10px 0px;
+  border: 2px solid black;
+  border-radius: 5px;
+  width: 291px;
+  font-size: 20px;
+}
